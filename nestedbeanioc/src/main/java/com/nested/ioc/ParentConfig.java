@@ -14,6 +14,7 @@ public class ParentConfig {
 		Rocket rocket = new Rocket();
 		rocket.setFuelType(fuelType);
 		rocket.setCapacity(capacity);
+		System.out.println("Parent Config");
 		return rocket;
 	}
 }
