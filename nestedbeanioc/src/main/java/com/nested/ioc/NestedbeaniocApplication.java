@@ -8,6 +8,7 @@ public class NestedbeaniocApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NestedbeaniocApplication.class, args);
+		System.out.println("Nested Bean IOC Application Started");
 	}
 
 }
